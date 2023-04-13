@@ -10,5 +10,6 @@ Install kyverno:
 ```bash
 helm upgrade -i kyverno kyverno/kyverno \
   --create-namespace \
-  --namespace kyverno
+  --namespace kyverno \
+  --version 3.0.0-alpha.1
 ```
