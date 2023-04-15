@@ -11,5 +11,5 @@ Install kyverno:
 helm upgrade -i kyverno kyverno/kyverno \
   --create-namespace \
   --namespace kyverno \
-  --version 3.0.0-alpha.1
+  --version 3.0.0-alpha.2
 ```
